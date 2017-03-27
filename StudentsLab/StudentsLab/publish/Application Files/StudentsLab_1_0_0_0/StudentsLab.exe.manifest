@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="StudentsLab.exe" version="1.0.0.0" publicKeyToken="c9f77ff91396bde5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="StudentsLab" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="StudentsLab.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень управления учетными записями Windows замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если вы хотите использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StudentsLab.exe" size="54272">
+      <assemblyIdentity name="StudentsLab" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>T0DRj4FAywgnYr7OUNdl/kak4pQI8N3eSLu9EJknDWk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="StudentsLab.exe.config" size="553">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QYRkhviaCcknKYMQ5xFlvyy0TbEfKCBeMl95RK0dcBQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="StudentsLabs.mdf" size="3211264" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LwVIALYTdhuXf2L5fU8UIhmfO7HjnwCOJBpPvuz6meo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="StudentsLabs_log.ldf" size="802816" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tr61QYo18OBHsRFIEFqe09hTjk6fwjmCYQ5yaxaNJ04=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=pc01\Александра" issuerKeyHash="bcff2d9d76a11b32b1c09ff5110e29b6373bb9f8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>chbKlbvPdxkJlgPOwuKUx3y8Fr7y8vW9/RPe2FxQyHw=</DigestValue></Reference></SignedInfo><SignatureValue>MuY/thkeYhJJ+2P0NawxuoJuxhp+xXsdfJUiVBSVGLvEbTzeRHF//nH4sGvJZ7sY6/QNTlU+4qzV5PDA88TafJ4YAHQZI4STcMSZCv+JActEWW1weMY+EWPWUfVgxvSXwn3zTB35R8Hjd6KOS7qQgwWRf9fcimnYfPixnbtSNR4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uT+G4mSf4p2SZQIND3tM4XnvCm9nkm57GsbRyr4Jt3mPSptqVyZ5YCAqF2g4c28c42ikrOKjuOs2ZUK91isF8MOY9E+GLZQrDU8Jbbx7I+Uwb4v36ye/SiPZmY6DSa/Ck5cG8eKKoYkrkGu5wvOMvD2Tp5GZF2W33Rreu150/XE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7cc8505cd8de13fdbdf5f2f2be16bc7cc794e2c2ce0396091977cfbb95ca1672" Description="" Url=""><as:assemblyIdentity name="StudentsLab.exe" version="1.0.0.0" publicKeyToken="c9f77ff91396bde5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=pc01\Александра</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yQCQOFx4ZRWUjWTaYRC2pGWWlH26YG8AohrKQZRRPHQ=</DigestValue></Reference></SignedInfo><SignatureValue>tMhifuZ6dTxghRAHWx1geY2145NjQ1rgGxH+jryqw3/sdkpxlImQTrmdNbBsR5N/BZf0zfnEMoDKx6nZhibd2YKhQ+amU8itx0nfYp4rcjLqfOUioE1uwlu8GOCg5U1hicmEtTUvtiAupOh27Y/GUW1jGK1D5nvJmVRn2yV7vF0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uT+G4mSf4p2SZQIND3tM4XnvCm9nkm57GsbRyr4Jt3mPSptqVyZ5YCAqF2g4c28c42ikrOKjuOs2ZUK91isF8MOY9E+GLZQrDU8Jbbx7I+Uwb4v36ye/SiPZmY6DSa/Ck5cG8eKKoYkrkGu5wvOMvD2Tp5GZF2W33Rreu150/XE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQGvs4E947YL1M42oGse151zANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AcABjADAAMQBcBBAEOwQ1BDoEQQQwBD0ENARABDAwHhcNMTcwMzI2MTEwODE1WhcNMTgwMzI2MTcwODE1WjApMScwJQYDVQQDHh4AcABjADAAMQBcBBAEOwQ1BDoEQQQwBD0ENARABDAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALk/huJkn+KdkmUCDQ97TOF57wpvZ5JuexrG0cq+Cbd5j0qbalcmeWAgKhdoOHNvHONopKzio7jrNmVCvdYrBfDDmPRPhi2UKw1PCW28eyPlMG+L9+snv0oj2ZmOg0mvwpOXBvHiiqGJK5BrucLzjLw9k6eRmRdlt90a3rtedP1xAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAR65jXmROV447C3Mspdzk1KHHy0eORsqgW+lYkXOiCNi7VESJdLqP6rksM4/iLhrpyuPWnB/CzYF4cL9tiIeUiBPXqWp7nmdHABtlbTUMgxFwMTgxSfBs1T+4f+07PrVJW78P7ZPxCpkLxSxSt+MI6ZfBZbWX58h5OuNGu5IYVBk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

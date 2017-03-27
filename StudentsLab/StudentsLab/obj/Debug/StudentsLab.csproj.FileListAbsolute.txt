@@ -1,0 +1,15 @@
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\bin\Debug\StudentsLab.exe.config
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\bin\Debug\StudentsLabs.mdf
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\bin\Debug\StudentsLabs_log.ldf
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\bin\Debug\StudentsLab.exe
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\bin\Debug\StudentsLab.pdb
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\obj\Debug\StudentsLab.csprojResolveAssemblyReference.cache
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\obj\Debug\StudentsLab.frmMain.resources
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\obj\Debug\StudentsLab.Properties.Resources.resources
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\obj\Debug\StudentsLab.csproj.GenerateResource.Cache
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\obj\Debug\StudentsLab.exe
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\obj\Debug\StudentsLab.pdb
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\bin\Debug\StudentsLab.exe.manifest
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\bin\Debug\StudentsLab.application
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\obj\Debug\StudentsLab.exe.manifest
+D:\workspace\c_sharp\rsoi\lab7\StudentsLab\StudentsLab\obj\Debug\StudentsLab.application
